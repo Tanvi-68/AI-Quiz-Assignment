@@ -117,7 +117,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             style={{ backgroundColor: '#DAB692', color: '#5C351B' }}
             className="px-4 py-2 text-xs font-bold rounded-lg hover:bg-[#CCA076] shadow-xs transition-colors whitespace-nowrap shrink-0 cursor-pointer border border-[#C59B74]"
           >
-            Start 25M Evaluation
+            Take a quiz
           </button>
         </div>
       </div>
@@ -133,7 +133,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             activeTab === 'exam' ? 'font-bold text-[#5C351B] bg-[#DAB692]/30' : 'text-[#8F5B34]'
           }`}
         >
-          25M Exam
+          Quiz It
         </button>
         <button
           onClick={() => onSelectTab('practice')}
