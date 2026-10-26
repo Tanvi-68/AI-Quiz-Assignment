@@ -356,7 +356,7 @@ export const ExamMode: React.FC<ExamModeProps> = ({
                   required
                   value={studentName}
                   onChange={(e) => setStudentName(e.target.value)}
-                  placeholder="e.g. Kaustav Banerjee"
+                  placeholder="e.g. Tanvi Khatri "
                   style={{ borderColor: '#DBC5B0', backgroundColor: '#FFFFFF', color: '#5C351B' }}
                   className="w-full pl-10 pr-4 py-2.5 rounded-xl border text-sm focus:ring-2 focus:ring-[#DAB692] focus:outline-none"
                 />
@@ -373,7 +373,7 @@ export const ExamMode: React.FC<ExamModeProps> = ({
                   required
                   value={rollNumber}
                   onChange={(e) => setRollNumber(e.target.value)}
-                  placeholder="e.g. 23BCA1042"
+                  placeholder="e.g. 2441468"
                   style={{ borderColor: '#DBC5B0', backgroundColor: '#FFFFFF', color: '#5C351B' }}
                   className="w-full px-4 py-2.5 rounded-xl border text-sm focus:ring-2 focus:ring-[#DAB692] focus:outline-none"
                 />
