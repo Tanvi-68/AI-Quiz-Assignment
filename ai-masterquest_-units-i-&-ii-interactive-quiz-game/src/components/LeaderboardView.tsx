@@ -101,7 +101,7 @@ export const LeaderboardView: React.FC<LeaderboardViewProps> = ({
             style={{ backgroundColor: '#DAB692', color: '#5C351B', borderColor: '#C59B74' }}
             className="px-4 py-2 text-xs font-extrabold rounded-xl border hover:bg-[#CCA076] shadow-xs transition-colors cursor-pointer"
           >
-            Take 25M Exam
+            Take Quiz
           </button>
         </div>
       </div>
@@ -137,7 +137,7 @@ export const LeaderboardView: React.FC<LeaderboardViewProps> = ({
             <Trophy className="w-8 h-8 text-[#8F5B34] mx-auto opacity-50" />
             <h3 className="text-base font-bold text-[#5C351B]">No Assessment Records Yet</h3>
             <p className="text-xs text-[#8F5B34] max-w-sm mx-auto">
-              Complete a 25-Mark Examination to view your grade, breakdown, and placement here.
+              Complete quiz to view your grade, breakdown, and placement here.
             </p>
             <button
               onClick={onTakeExam}
