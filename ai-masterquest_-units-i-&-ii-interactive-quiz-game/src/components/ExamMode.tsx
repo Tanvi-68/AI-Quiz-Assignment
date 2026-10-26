@@ -423,7 +423,7 @@ export const ExamMode: React.FC<ExamModeProps> = ({
                 style={{ backgroundColor: '#DAB692', color: '#5C351B', borderColor: '#C59B74' }}
                 className="w-full sm:w-auto px-6 py-3 text-sm font-bold rounded-xl border hover:bg-[#CCA076] shadow-xs transition-colors cursor-pointer"
               >
-                Begin 25-Mark Evaluation
+                Start Quiz
               </button>
             </div>
           </form>
