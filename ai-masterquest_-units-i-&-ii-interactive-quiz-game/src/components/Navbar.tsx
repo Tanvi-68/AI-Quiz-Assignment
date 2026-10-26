@@ -43,7 +43,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                 : 'hover:text-[#5C351B]'
             }`}
           >
-            25-Mark Exam
+            Quiz It
           </button>
           <button
             onClick={() => onSelectTab('practice')}
